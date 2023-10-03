@@ -25,7 +25,7 @@ int main()
         {
             if (line[0] == 'f')
             {
-                if (find(database.begin(), database.end(), line.substr(5)) != database.end())
+                if (database.find(line.substr(5)) != database.end())
                 {
                     cout << '1' << endl;
                 }
@@ -36,7 +36,7 @@ int main()
             }
             else
             {
-                if (find(database.begin(), database.end(), line.substr(7)) != database.end())
+                if (database.find(line.substr(7)) != database.end())
                 {
                     cout << '0' << endl;
                 }
