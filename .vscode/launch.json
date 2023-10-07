@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ASUS/Desktop/TTUD/code",
-      "program": "c:/Users/ASUS/Desktop/TTUD/code/build/Debug/outDebug",
+      "cwd": "c:/Users/ASUS/Desktop/NPM/TTUD/code",
+      "program": "c:/Users/ASUS/Desktop/NPM/TTUD/code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
