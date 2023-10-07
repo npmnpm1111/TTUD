@@ -56,7 +56,6 @@ int main()
         else if (cmd == "?number_calls_from")
         {
             string target_phone = line.substr(pos + 1);
-            // cout << target_phone << endl;
             cout << countphone1[target_phone] << endl;
         }
         else if (cmd == "?check_phone_number")
