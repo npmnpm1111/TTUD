@@ -95,7 +95,9 @@
       "typeinfo": "cpp",
       "valarray": "cpp",
       "variant": "cpp",
-      "*.txt": "c"
+      "*.txt": "c",
+      "format": "cpp",
+      "stdfloat": "cpp"
     }
   }
 }

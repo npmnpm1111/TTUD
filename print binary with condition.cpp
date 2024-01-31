@@ -8,7 +8,7 @@ void print_sol(int A[maxn])
 {
     for (int i = 1; i <= n; i++)
     {
-        cout << A[i] << " ";
+        cout << A[i];
     }
     cout << endl;
 }
@@ -18,7 +18,7 @@ void Try(int k)
     for (int i = 0; i <= 1; i++)
     {
         x[k] = i;
-        if (k < 3) // dieu kien in
+        if (k < n+1) // dieu kien in
         {
             if (k == n)
                 print_sol(x);
